@@ -34,7 +34,7 @@ function HookComponent() {
             const springParams = queryString.stringify(filter)
             console.log(springParams)
             // const response = await fetch(`https://localhost:3001/posts?${springParams}`)
-            const posts = await fetch('http://js-post-api.herokuapp.com/api/posts?' + springParams)
+            const posts = await fetch('https://js-post-api.herokuapp.com/api/posts?' + springParams)
                 .then(res => res.json())
                 .then(dataRes => {
                     // console.log(dataRes)
