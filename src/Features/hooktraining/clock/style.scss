@@ -1,0 +1,20 @@
+.box5 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #474747;
+    background: whitesmoke;
+    /*背景色*/
+    border-left: double 7px #4ec4d3;
+    /*左線*/
+    border-right: double 7px #4ec4d3;
+    /*右線*/
+    border-radius: 0 10px 10px 10px;
+}
+
+.box5 p {
+
+    color: #7dd8e4;
+    text-align: center;
+    line-height: 100px;
+    font-size: 3em;
+}

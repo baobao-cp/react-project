@@ -1,0 +1,12 @@
+.todo-list {
+    &>li {
+        cursor: pointer;
+        color: rgb(54, 72, 54);
+    }
+
+    &>li.complete {
+        color: rgb(226, 129, 129);
+        font-family: italic;
+        text-decoration: line-through;
+    }
+}
